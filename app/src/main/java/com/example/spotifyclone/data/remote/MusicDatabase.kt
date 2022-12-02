@@ -1,6 +1,5 @@
 package com.example.spotifyclone.data.remote
 
-import android.util.Log
 import com.example.spotifyclone.data.entities.Song
 import com.example.spotifyclone.other.Constants.SONG_COLLECTION
 import com.google.firebase.firestore.FirebaseFirestore
