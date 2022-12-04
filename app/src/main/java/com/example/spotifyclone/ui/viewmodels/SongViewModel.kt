@@ -8,10 +8,12 @@ import com.example.spotifyclone.exoplayer.MusicService
 import com.example.spotifyclone.exoplayer.MusicServiceConnection
 import com.example.spotifyclone.exoplayer.currentPlaybackPosition
 import com.example.spotifyclone.other.Constants.UPDATE_PLAYER_POSITION_INTERVAL
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
+@HiltViewModel
 class SongViewModel @Inject constructor(
     musicServiceConnection: MusicServiceConnection
 ) : ViewModel() {
@@ -32,7 +34,7 @@ class SongViewModel @Inject constructor(
         viewModelScope.launch {
             while(true) {
                 val pos = playbackState.value?.currentPlaybackPosition
-                if (curPlayerPosition.value != pos) {
+                if(curPlayerPosition.value != pos) {
                     _curPlayerPosition.postValue(pos!!)
                     _curSongDuration.postValue(MusicService.curSongDuration)
                 }
