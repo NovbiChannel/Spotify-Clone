@@ -1,6 +1,7 @@
 package com.example.spotifyclone.exoplayer.callbacks
 
 import android.app.Notification
+import android.app.Service.STOP_FOREGROUND_REMOVE
 import android.content.Intent
 import androidx.core.content.ContextCompat
 import com.example.spotifyclone.exoplayer.MusicService
@@ -14,7 +15,7 @@ class MusicPlayerNotificationListener(
     override fun onNotificationCancelled(notificationId: Int, dismissedByUser: Boolean) {
         super.onNotificationCancelled(notificationId, dismissedByUser)
         musicService.apply {
-            stopForeground(true)
+            stopForeground(STOP_FOREGROUND_REMOVE)
             isForegroundService = false
             stopSelf()
         }
