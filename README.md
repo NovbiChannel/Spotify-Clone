@@ -2,9 +2,9 @@
 <p>A simple application for playing your favorite music tracks based on the MVVM architecture.
 This project is developed with source code based on <a href="https://www.youtube.com/@PhilippLackner">Philipp Lackner</a> video course released in 2020.</p>
 <p>
-<img src="https://firebasestorage.googleapis.com/v0/b/spotifyclonetest-68b4a.appspot.com/o/image_for_project%2FSpotifyClone%2FScreenshot_20221209_141502.png?alt=media&token=698dd921-11e0-45b0-b68b-bde6a74fd750" alt="Running_fragment" width="30%">
-<img src="https://firebasestorage.googleapis.com/v0/b/spotifyclonetest-68b4a.appspot.com/o/image_for_project%2FSpotifyClone%2FScreenshot_20221209_141557.png?alt=media&token=65752b4d-754d-4fed-963f-818e0a478d0c" alt="Running_fragment" width="30%">
-<img src="https://firebasestorage.googleapis.com/v0/b/spotifyclonetest-68b4a.appspot.com/o/image_for_project%2FSpotifyClone%2FScreenshot_20221209_141629.png?alt=media&token=70120db6-7ddf-460e-af40-5880e125dfd5" alt="Running_fragment" width="30%">
+<img src="https://firebasestorage.googleapis.com/v0/b/spotifyclonetest-68b4a.appspot.com/o/image_for_project%2FSpotifyClone%2FScreenshot_20221209_141502.png?alt=media&token=698dd921-11e0-45b0-b68b-bde6a74fd750" alt="Running_fragment" width="33%">
+<img src="https://firebasestorage.googleapis.com/v0/b/spotifyclonetest-68b4a.appspot.com/o/image_for_project%2FSpotifyClone%2FScreenshot_20221209_141557.png?alt=media&token=65752b4d-754d-4fed-963f-818e0a478d0c" alt="Running_fragment" width="33%">
+<img src="https://firebasestorage.googleapis.com/v0/b/spotifyclonetest-68b4a.appspot.com/o/image_for_project%2FSpotifyClone%2FScreenshot_20221209_141629.png?alt=media&token=70120db6-7ddf-460e-af40-5880e125dfd5" alt="Running_fragment" width="33%">
 </p>
 
 # DEVELOPMENT TIME
