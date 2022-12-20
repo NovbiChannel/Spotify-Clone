@@ -13,7 +13,7 @@ This project is developed with source code based on <a href="https://www.youtube
 # ARCHITECTURE
 <p>Based on the MVVM architecture</p>
 <p><img src="https://firebasestorage.googleapis.com/v0/b/spotifyclonetest-68b4a.appspot.com/o/image_for_project%2FSpotifyClone%2FArchitecture_project%2FA4%20-%202.png?alt=media&token=204f6755-a217-44d8-a10b-e87895440725" 
-alt="Running_fragment" width="93%"></p>
+alt="Running_fragment" width="100%"></p>
 
 # SPECIFICATIONS AND OPEN SOURCE LIBRARIES
 <ul>
